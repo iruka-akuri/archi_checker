@@ -16,7 +16,7 @@ building_type = st.sidebar.selectbox(
     format_func=lambda x: {
         "dwelling": "住宅",
         "primary_school": "小学校",
-        "public_use": "店舗・集会場",
+        "public_use": "駅",
         "other": "その他"
     }[x]
 )
