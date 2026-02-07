@@ -6,9 +6,9 @@ def check_stair_compliance(building_type, width, tread, riser):
     # 用途に応じて: (最小幅, 最小踏面, 最大蹴上げ)
     RULES = {
         "primary_school": {"min_w": 1400, "min_t": 260, "max_r": 160}, # 小学校
-        "public_use":     {"min_w": 1200, "min_t": 240, "max_r": 180}, # 集会場・店舗等
+        "public_use":     {"min_w": 1500, "min_t": 300, "max_r": 160}, # 集会場・店舗等
         "dwelling":       {"min_w": 750,  "min_t": 150, "max_r": 230}, # 直通階段以外の住宅
-        "other":          {"min_w": 1500,  "min_t": 210, "max_r": 200}, # その他
+        "other":          {"min_w": 1400,  "min_t": 210, "max_r": 200}, # その他
     }
 
     # 用途が見つからない場合は「その他」を適用
